@@ -1,0 +1,36 @@
+{
+  "name": "accurate-timer-js",
+  "version": "0.1.0",
+  "description": "An accurate javascript timer for the browser",
+  "main": "dist/AccurateTimer.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-uglify": "~1.5.3",
+    "gulp-util": "~3.0.7",
+    "mocha": "*",
+    "through2": "~2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/accurate-timer-js.git"
+  },
+  "keywords": [
+    "timer"
+  ],
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/accurate-timer-js/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/accurate-timer-js#readme"
+}

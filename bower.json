@@ -1,0 +1,13 @@
+{
+  "name": "accurate-timer-js",
+  "description": "An accurate javascript timer for the browser",
+  "main": "dist/AccurateTimer.min.js",
+  "authors": [
+    "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "timer"
+  ],
+  "homepage": "https://github.com/adriano-di-giovanni/accurate-timer-js"
+}
