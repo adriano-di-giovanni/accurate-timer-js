@@ -8,7 +8,7 @@
     }
 }(this, function (root) {
 
-var blob = new Blob([ "function tick(){delayed+=delay;var e=self.performance.now(),t=e-startedAt,d=t-delayed;self.postMessage(null),timeoutId=self.setTimeout(tick,delay-d)}var delay,startedAt,delayed,timeoutId=null;self.onmessage=function(e){delay=e.data,delay>0?(startedAt=self.performance.now(),delayed=0,timeoutId=self.setTimeout(tick,delay)):timeoutId&&(clearTimeout(timeoutId),timeoutId=null)};" ], { type: "application/javascript" });
+var blob = new Blob([ "function tick(){delayed+=delay;var e=self.performance.now(),t=e-startedAt,a=t-delayed;self.postMessage(null),timeoutId=self.setTimeout(tick,delay-a)}var now=self.performance.now||Date.now||function(){return(new Date).getTime()},delay,startedAt,delayed,timeoutId=null;self.onmessage=function(e){delay=e.data,delay>0?(startedAt=self.performance.now(),delayed=0,timeoutId=self.setTimeout(tick,delay)):timeoutId&&(clearTimeout(timeoutId),timeoutId=null)};" ], { type: "application/javascript" });
 
 function AccurateTimer(callback, delay) {
     this._callback = callback;

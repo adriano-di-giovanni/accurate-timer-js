@@ -1,6 +1,6 @@
 {
   "name": "accurate-timer-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An accurate javascript timer for the browser",
   "main": "dist/AccurateTimer.min.js",
   "directories": {

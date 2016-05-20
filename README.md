@@ -1,6 +1,11 @@
 # accurate-timer-js
 
-An accurate javascript timer for the browser
+An accurate javascript timer for the browser.
+
+It uses a web worker and `performance.now`.
+
+http://caniuse.com/#search=performance.now
+http://caniuse.com/#search=web%20worker
 
 ## Installation
 
@@ -23,3 +28,13 @@ var timer = new AccurateTimer(function tick() {
 
 timer.start();
 ```
+
+## Changelog
+
+### 0.1.0 (2016-05-19)
+
+First release
+
+### 0.1.1 (2016-05-20)
+
+Minor changes
