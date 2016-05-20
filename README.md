@@ -5,6 +5,7 @@ An accurate javascript timer for the browser.
 It uses a web worker and `performance.now`.
 
 http://caniuse.com/#search=performance.now
+
 http://caniuse.com/#search=web%20worker
 
 ## Installation
